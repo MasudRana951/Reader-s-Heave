@@ -1,0 +1,142 @@
+/*========
+ all common css start 
+========= */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1420px;
+    margin: 0 auto;
+}
+li,ol,ul{
+    list-style: none;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover{
+    text-decoration: none;
+    color:rgb(24, 168, 194);
+}
+body{
+    background: url(../images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.btn{
+    color: #f8fffd;
+    margin: 10px 25px;
+    background-color: rgb(6, 71, 73);
+    text-transform: capitalize;
+    border-radius: 15px;
+    transition: all linear .3s;
+    font-size: 18px;
+}
+.btn:hover{
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    background-color: #f8fffd;
+}
+/*========
+ all common css end 
+========= */
+/* navigation css start here */
+nav {
+    position: fixed;
+    width: 100%;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.363);
+}
+nav .logo{
+    width: 180px; 
+    height: 50px;
+}
+nav .nav-items{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+nav .nav-items .logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    color: rgb(51, 51, 51);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* color: rgb(24, 168, 194); */
+
+}
+nav .nav-items .menu-navigations{
+    align-items: start;
+}
+nav .nav-items .menu-navigations ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+nav .nav-items .menu-navigations ul li a{
+    font-size: 18px;
+    color: rgb(61, 61, 61);
+    text-transform: capitalize;
+    /* padding: 8px 20px; */
+    transition: all linear .3s;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+}
+nav .nav-items .menu-navigations ul li a:hover{
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    background: #f8fffd;
+}
+nav .nav-items .menu-navigations ul .button{
+}
+nav .nav-items .menu-navigations ul .button>a{
+    background: rgb(6, 71, 73);
+    color: white;
+    border-radius: 15px;     
+}
+nav .nav-items .menu-navigations ul .button>a span{
+    margin-left: 5px;
+}
+/* navigation css end here */
+/* banner section start here */
+.banner .mainbanner{
+    height: 100vh;
+}
+.banner .mainbanner{
+    /* margin-top: 150px; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    color: #f8fffd;
+}
+.banner .mainbanner .main-title {
+    font-size: 36px;
+    text-transform: capitalize;
+}
+.banner .mainbanner .main-title span{
+    display: inline-block;
+    font-size: 26px;
+    text-transform: capitalize;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #019eff;
+    margin-right: 5px;
+}
+/* banner section start here */
